@@ -1,0 +1,8 @@
+
+addbysunke
+
+
+MACHINE=imx6dlrbctrl source fsl-setup-release.sh -b build -e fb
+
+
+bitbake eliterbctrl-image-test
